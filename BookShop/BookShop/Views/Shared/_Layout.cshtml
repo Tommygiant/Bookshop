@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BookShop</title>
+    <meta name='robots' content='noindex,follow' />
+   <!-- <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    --><link rel='dns-prefetch' href='//s.w.org' />
+    <link rel='stylesheet' id='select2-css' href="~/Content/plugins/woocommerce/assets/css/select2.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css' href="~/Content/plugins/woocommerce/assets/css/woocommerce-layout.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href="~/Content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css" type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css' href="~/Content/plugins/woocommerce/assets/css/woocommerce.css" type='text/css' media='all' />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel='stylesheet' id='bootstrap-css' href="~/Content/plugins/theme/bookie/vendor/bootstrap/css/bootstrap.min.css"/>
+    <link rel='stylesheet' id='smartmenu-css' href="~/Content/plugins/theme/bookie/vendor/smartmenu/jquery.smartmenus.bootstrap.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='fontawesome-css' href="~/Content/plugins/theme/bookie/vendor/fontawesome/css/font-awesome.min.css" type='text/css' media='all' />
+  <!--  <link rel='stylesheet' id='toko-google-fonts-css' href='https://fonts.googleapis.com/css?family=Montserrat%7CPT+Serif&#038;ver=1.0.0' type='text/css' media='all' />
+    --><link rel='stylesheet' id='toko-style-theme-css' href="~/Content/plugins/theme/bookie/style-theme.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='toko-style-woocommerce-css' href="~/Content/plugins/theme/bookie/style-woocommerce.css" type='text/css' media='all' />
+    <link rel='stylesheet' id='toko-style-shortcodes-css' href="~/Content/plugins/theme/bookie/style-shortcodes.css" type='text/css' media='all' />
+    <link rel="stylesheet" id="toko-style-css" href="~/Content/themes/bookie/bookie-wp-child/style.css"type='text/css' media='all' />
+    <script type='text/javascript' src="~/Content/jquery/jquery.js"></script>
+    <script type='text/javascript' src="~/Content/jquery/jquery-migrate.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"></script>
+    <script type='text/javascript'>
+
+
+    </script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/frontend/add-to-cart.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/js_composer/js/vendors/woocommerce-add-to-cart.js"></script>
+   
+    <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+  
+    <link rel="icon" href="~/Content/Images/thumb.png" sizes="32x32" />
+    <link rel="icon" href="~/Content/Images/thumb.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="~/Content/Images/thumb.png" />
+    <meta name="msapplication-TileImage" content="~/Content/Images/thumb.png" />
+    <noscript>
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript><!-- Facebook Pixel Code -->
+    <script>
+ 
+    </script>
+</head>
+<body class="page-template page-template-page_fullwidth page-template-page_fullwidth-php page page-id-1707 logged-in woocommerce-cart woocommerce-page woocommerce-no-js header-large ltr wpb-js-composer js-comp-ver-5.4.5 vc_responsive">
+    <div class="site-wrap">
+        <header class="section-site-header">
+            <div class="site-header">
+                <div class="container">
+                    <div class="site-brand pull-left">
+                        <a class="navbar-brand" href="/Home/Index">
+                            <div class="site-logo-text">							BookShop						</div>														
+                            	<p class="site-description"></p>
+                        </a>
+                    </div>
+
+                    <div class="site-quicknav pull-right">
+                        <ul class="nav navbar-right">
+
+                            <li class="dropdown visible-xs visible-sm">
+                                <a href="#" class="dropdown-toggle" data-toggle="collapse" data-target=".navbar-collapse-top">
+                                    <i class="fa fa-navicon"></i>
+                                </a>
+                            </li>
+
+                            
+
+                        </ul>
+                    </div>
+
+                    <div class="site-menu navbar-inverse navbar-collapse collapse navbar-collapse-top ">
+                        <ul id="menu-header-menu" class="site-menu nav navbar-nav">
+                            <li id="menu-item-2974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a title="Home" href="/Home/Index">HomePage </a></li>
+                            <li id="menu-item-2902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2902"><a title="Bookstore" href="/Home/BookShow">Bookstore</a></li>
+                            <li id="menu-item-2901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2901"><a title="Cart" href="/Home/Cart">Cart</a></li>
+                            
+                            <li id="menu-item-2898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2898"><a title="My Account" href="~/Home/Information">My Account</a></li>
+                           
+                            <li id="menu-item-2795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2795 dropdown">
+                                <a title="VC Add-ons" href="#">Admin <span class="caret"></span></a>
+                                <ul role="menu" class=" dropdown-menu">
+                                    <li id="menu-item-2903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2903"><a title="管理书籍" href="/books/Index">Manage Book</a></li>
+                                    <li id="menu-item-2908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2908"><a title="管理用户" href="/users/Index">Manage User</a></li>
+                                    <li id="menu-item-2906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2906"><a title="管理购物车" href="/orders/Index">Manage Cart</a></li>
+                                    <li id="menu-item-2906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2906"><a title="退出" href="/Home/adminLogout">Logout</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+
+
+        <div>
+            @RenderBody()
+        </div>
+        <footer class="section-site-footer">
+
+
+            <div class="site-footer">
+                <div class="container">
+
+
+                   
+                    <div class="footer-credit">
+                        <p>Copyright &copy; 2023</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+
+
+    </div>
+    <link rel='stylesheet' id='owlcarousel2-css' href="~/Content/plugins/carousel/owl.carousel.css" type='text/css' media='all' />
+    <!--<link rel='stylesheet' id='vc_google_fonts_pt_serifregularitalic700700italic-css' href='//fonts.googleapis.com/css?family=PT+Serif%3Aregular%2Citalic%2C700%2C700italic&#038;ver=4.9.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_google_fonts_montserratregular700-css' href='//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;ver=4.9.9' type='text/css' media='all' />
+    --><script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/theme/bookie/script.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/frontend/country-select.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/frontend/cart.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js"></script>
+        <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"></script>
+        <script type='text/javascript' src="~/Content/plugins/theme/bookie/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script type='text/javascript' src="~/Content/plugins/theme/bookie/vendor/smartmenu/jquery.smartmenus.min.js"></script>
+        <script type='text/javascript' src="~/Content/plugins/theme/bookie/vendor/smartmenu/jquery.smartmenus.bootstrap.min.js"></script>
+        <script type='text/javascript' src="~/Content/plugins/theme/bookie/script.js"></script>
+        <script type='text/javascript' src="~/Content/jquery/wp-embed.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/wp-embed.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/carousel/owl.carousel.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/js_composer/js/dist/js_composer_front.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿@model IEnumerable<DAL.orders>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="main-content-container container">
+    <div class="row">
+
+        <div class="col-md-12">
+            <div id="content" class="main-content-inner" role="main">
+
+
+                <article id="post-1707" class="post-1707 page type-page status-publish entry">
+
+                    <div class="entry-content">
+
+                        <div class="woocommerce">
+                            <div class="woocommerce-notices-wrapper"></div>
+                            <form class="woocommerce-cart-form" method="post">
+
+                                <table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th class="product-remove">&nbsp;</th>
+                                            <th class="product-thumbnail">&nbsp;</th>
+                                            <th class="product-name">用户名</th>
+                                            <th class="product-price">价钱</th>
+                                            <th class="product-quantity">订单用户</th>
+                                            <th class="product-subtotal">日期</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr class="woocommerce-cart-form__cart-item cart_item">
+
+                                                <td class="product-remove">
+                                                    <a href="/orders/Delete/@item.order_id" class="remove" aria-label="Remove this item" data-product_id="99" data-product_sku="">&times;</a>
+                                                </td>
+
+                                                <td class="product-thumbnail">
+                                                    <a href="/Home/BookDetail/@item.book_id"><img width="250" height="333" src="~/Content/Images/book/@item.books.picname" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" /></a>
+                                                </td>
+                                                <td class="product-name" data-title="Product">
+                                                    @Html.DisplayFor(modelItem => item.username)
+                                                </td>
+                                                <td class="product-price" data-title="Price">
+                                                    <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>@Html.DisplayFor(modelItem => item.price)</span>
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.books.book_id)
+                                                </td>
+                                                <td class="product-name">
+                                                    @Html.DisplayFor(modelItem => item.order_date)
+                                                </td>
+                                                <td class="product-thumbnail">
+                                                    @Html.ActionLink("Edit", "Edit", new { id = item.order_id }) |
+                                                    @Html.ActionLink("Details", "Details", new { id = item.order_id }) |
+                                                    @Html.ActionLink("Delete", "Delete", new { id = item.order_id })
+                                                </td>
+                                            </tr>
+                                        }
+                                        <tr>
+                                            <td colspan="6" class="actions">
+                                           <input type="hidden" id="woocommerce-cart-nonce" name="woocommerce-cart-nonce" value="" /><input type="hidden" name="_wp_http_referer" value="" />
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </form>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+
