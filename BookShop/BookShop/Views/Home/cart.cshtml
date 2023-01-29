@@ -1,0 +1,197 @@
+﻿@model IEnumerable<DAL.orders>
+
+@{
+    ViewBag.Title = "cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BookShop</title>
+</head>
+
+<body class="page-template page-template-page_fullwidth page-template-page_fullwidth-php page page-id-1707 logged-in woocommerce-cart woocommerce-page woocommerce-no-js header-large ltr wpb-js-composer js-comp-ver-5.4.5 vc_responsive">
+
+    <div class="site-wrap">
+        
+
+        <div class="main-content">
+
+
+            <div class="main-content-container container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div id="content" class="main-content-inner" role="main">
+
+
+                            <article id="post-1707" class="post-1707 page type-page status-publish entry">
+
+                                <div class="entry-content">
+
+                                    <div class="woocommerce">
+                                        <div class="woocommerce-notices-wrapper"></div>
+                                        <form class="woocommerce-cart-form"  method="post">
+
+                                            <table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="product-remove">&nbsp;</th>
+                                                        <th class="product-thumbnail">&nbsp;</th>
+                                                        <th class="product-name">Product</th>
+                                                        <th class="product-price">Price</th>
+                                                        <th class="product-quantity">Quantity</th>
+                                                        <th class="product-subtotal">Total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    @foreach (var item in Model)
+                                                    {
+                                                        <tr class="woocommerce-cart-form__cart-item cart_item">
+
+                                                            <td class="product-remove">
+                                                                <a href="/Home/CartDeleteConfirmed/@item.order_id" class="remove" aria-label="Remove this item" data-product_id="99" data-product_sku="">&times;</a>
+                                                            </td>
+                                                            
+                                                            <td class="product-thumbnail">
+                                                                <a href="/Home/BookDetail/@item.book_id"><img width="250" height="333" src="~/Content/Images/book/@item.books.picname" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" /></a>
+                                                            </td>
+                                                            <td class="product-name" data-title="Product">
+                                                                @Html.DisplayFor(modelItem => item.book_title)
+                                                            </td>
+                                                            <td class="product-price" data-title="Price">
+                                                                <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>@Html.DisplayFor(modelItem => item.price)</span>
+                                                            </td>
+                                                            <td>
+                                                                @Html.DisplayFor(modelItem => item.quantity)
+                                                            </td>
+
+                                                            <td class="product-subtotal" data-title="Total">
+                                                                @Html.DisplayFor(modelItem => item.price)
+                                                            </td>
+
+                                                        </tr>
+                                                    }
+                                                   
+
+
+                                                    <tr>
+                                                        <td colspan="6" class="actions">
+
+                                                          
+                                                           
+
+
+                                                            <input type="hidden" id="woocommerce-cart-nonce" name="woocommerce-cart-nonce" value="" /><input type="hidden" name="_wp_http_referer" value="" />
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </form>
+
+                                        <div class="cart-collaterals">
+
+                                            <div class="cross-sells">
+
+                                                <h2>You may be interested in&hellip;</h2>
+
+                                                <ul class="products columns-2">
+
+
+                                                    @foreach (var item in Model.Take(4))
+                                                    {
+
+                                                        <li class="post-93 product type-product status-publish has-post-thumbnail  product_cat-culture product_cat-life-style product_tag-culture product_tag-dream product_tag-etnic last instock downloadable shipping-taxable purchasable product-type-simple">
+                                                            <div class="product-inner">
+                                                                <a href="/Home/BookDetail/@item.book_id" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <figure class="product-image-box">
+                                                                        <img width="250" height="333" src="~/Content/Images/book/@item.books.picname" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />
+                                                                    </figure>
+                                                                    <div class="product-price-box clearfix">
+                                                                        <h2 class="woocommerce-loop-product__title">@Html.DisplayFor(modelItem => item.books.title)</h2>
+                                                                        <span class="person-name vcard">@Html.DisplayFor(modelItem => item.books.author)</span>
+                                                                        <span class="price">
+                                                                            <span class="woocommerce-Price-amount amount">
+                                                                                <span class="woocommerce-Price-currencySymbol" style="font-size:1em">
+                                                                                    &#36;
+                                                                                </span>@Html.DisplayFor(modelItem => item.price)
+                                                                            </span>
+                                                                        </span>
+                                                                    </div>
+                                                                </a><div class="woo-button-wrapper"><div class="woo-button-border"><a href="/Home/BookDetail/@item.book_id" class="button product-button">Detail</a><a href="/Home/AddCart/@item.book_id" data-quantity="1" class="button product_type_simple add_to_cart_button" data-product_id="96" data-product_sku="" aria-label="Add &ldquo;See Me&rdquo; to your cart" rel="nofollow">Buy</a></div></div>
+                                                            </div>
+                                                        </li>
+
+
+                                                    }
+
+
+                                                </ul>
+
+                                            </div>
+
+                                            <div class="cart_totals calculated_shipping">
+
+
+                                                <h2>Cart totals</h2>
+
+                                                <table cellspacing="0" class="shop_table shop_table_responsive">
+
+                                                    <tr class="cart-subtotal">
+                                                        <th>Subtotal</th>
+                                                        <td data-title="Subtotal"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>@Model.Sum(p=>p.price)
+                                                           
+                                                        </span></td>
+                                                    </tr>
+
+
+
+
+
+
+                                                    <tr class="order-total">
+                                                        <th>Total</th>
+                                                        <td data-title="Total"><strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>@Model.Sum(p => p.price)</span></strong> </td>
+                                                    </tr>
+
+
+                                                </table>
+
+
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </article>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+       
+
+
+
+    </div>
+
+</body>
+</html>
+

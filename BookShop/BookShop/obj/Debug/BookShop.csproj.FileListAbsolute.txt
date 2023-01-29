@@ -1,0 +1,223 @@
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\csc.exe
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\System.Collections.Immutable.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\vbc.exe
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\VBCSCompiler.exe
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\roslyn\VBCSCompiler.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\BookShop.dll.config
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\BookShop.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\BookShop.pdb
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\EntityFramework.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\EntityFramework.SqlServer.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\Microsoft.Web.Infrastructure.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Helpers.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Mvc.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Razor.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Webpages.Deployment.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Webpages.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Webpages.Razor.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\EntityFramework.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\EntityFramework.SqlServer.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Razor.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Webpages.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Webpages.Deployment.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Webpages.Razor.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Helpers.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Mvc.xml
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\zh-Hans\System.Web.Razor.resources.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.resources.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\zh-Hans\System.Web.Helpers.resources.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\zh-Hans\System.Web.Mvc.resources.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\obj\Debug\BookShop.dll
+c:\users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\obj\Debug\BookShop.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\DAL.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\DAL.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\Newtonsoft.Json.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Net.Http.Formatting.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Http.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Http.WebHost.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\Newtonsoft.Json.xml
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Net.Http.Formatting.xml
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Http.xml
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BookShop\bin\System.Web.Http.WebHost.xml
+C:\Users\admin\Documents\Visual Studio 2015\Projects\BookShop\BookShop\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\BookShop\BookShop\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\BookShop\BookShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\BookShop\BookShop\bin\BookShop.dll.config
+C:\Users\HP\Desktop\BookShop\BookShop\bin\BookShop.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\BookShop.pdb
+C:\Users\HP\Desktop\BookShop\BookShop\bin\DAL.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\EntityFramework.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Net.Http.Formatting.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Http.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Http.WebHost.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\DAL.pdb
+C:\Users\HP\Desktop\BookShop\BookShop\bin\EntityFramework.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Net.Http.Formatting.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Http.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Http.WebHost.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\BookShop\BookShop\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\HP\Desktop\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\BookShop\BookShop\obj\Debug\BookShop.dll
+C:\Users\HP\Desktop\BookShop\BookShop\obj\Debug\BookShop.pdb
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\csc.exe
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\System.Collections.Immutable.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\System.Reflection.Metadata.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\vbc.exe
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\VBCSCompiler.exe
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\roslyn\VBCSCompiler.exe.config
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\BookShop.dll.config
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\BookShop.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\BookShop.pdb
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\DAL.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\EntityFramework.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\EntityFramework.SqlServer.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\Microsoft.Web.Infrastructure.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\Newtonsoft.Json.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Net.Http.Formatting.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Helpers.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Http.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Http.WebHost.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Mvc.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Razor.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Webpages.Deployment.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Webpages.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Webpages.Razor.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\DAL.pdb
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\EntityFramework.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\EntityFramework.SqlServer.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\Newtonsoft.Json.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Net.Http.Formatting.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Http.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Http.WebHost.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Razor.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Webpages.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Webpages.Deployment.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Webpages.Razor.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Helpers.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\System.Web.Mvc.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\zh-Hans\EntityFramework.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\obj\Debug\BookShop.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\BookShop\obj\Debug\BookShop.pdb
+E:\BookShop\BookShop\bin\roslyn\csc.exe
+E:\BookShop\BookShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BookShop\BookShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BookShop\BookShop\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BookShop\BookShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BookShop\BookShop\bin\roslyn\System.Collections.Immutable.dll
+E:\BookShop\BookShop\bin\roslyn\System.Reflection.Metadata.dll
+E:\BookShop\BookShop\bin\roslyn\vbc.exe
+E:\BookShop\BookShop\bin\roslyn\VBCSCompiler.exe
+E:\BookShop\BookShop\bin\roslyn\VBCSCompiler.exe.config
+E:\BookShop\BookShop\bin\BookShop.dll.config
+E:\BookShop\BookShop\bin\BookShop.dll
+E:\BookShop\BookShop\bin\BookShop.pdb
+E:\BookShop\BookShop\bin\DAL.dll
+E:\BookShop\BookShop\bin\EntityFramework.dll
+E:\BookShop\BookShop\bin\EntityFramework.SqlServer.dll
+E:\BookShop\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BookShop\BookShop\bin\Microsoft.Web.Infrastructure.dll
+E:\BookShop\BookShop\bin\Newtonsoft.Json.dll
+E:\BookShop\BookShop\bin\System.Net.Http.Formatting.dll
+E:\BookShop\BookShop\bin\System.Web.Helpers.dll
+E:\BookShop\BookShop\bin\System.Web.Http.dll
+E:\BookShop\BookShop\bin\System.Web.Http.WebHost.dll
+E:\BookShop\BookShop\bin\System.Web.Mvc.dll
+E:\BookShop\BookShop\bin\System.Web.Razor.dll
+E:\BookShop\BookShop\bin\System.Web.Webpages.Deployment.dll
+E:\BookShop\BookShop\bin\System.Web.Webpages.dll
+E:\BookShop\BookShop\bin\System.Web.Webpages.Razor.dll
+E:\BookShop\BookShop\bin\DAL.pdb
+E:\BookShop\BookShop\bin\DAL.dll.config
+E:\BookShop\BookShop\bin\EntityFramework.xml
+E:\BookShop\BookShop\bin\EntityFramework.SqlServer.xml
+E:\BookShop\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BookShop\BookShop\bin\Newtonsoft.Json.xml
+E:\BookShop\BookShop\bin\System.Net.Http.Formatting.xml
+E:\BookShop\BookShop\bin\System.Web.Http.xml
+E:\BookShop\BookShop\bin\System.Web.Http.WebHost.xml
+E:\BookShop\BookShop\bin\System.Web.Razor.xml
+E:\BookShop\BookShop\bin\System.Web.Webpages.xml
+E:\BookShop\BookShop\bin\System.Web.Webpages.Deployment.xml
+E:\BookShop\BookShop\bin\System.Web.Webpages.Razor.xml
+E:\BookShop\BookShop\bin\System.Web.Helpers.xml
+E:\BookShop\BookShop\bin\System.Web.Mvc.xml
+E:\BookShop\BookShop\bin\zh-Hans\EntityFramework.resources.dll
+E:\BookShop\BookShop\bin\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\BookShop\BookShop\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.resources.dll
+E:\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.Deployment.resources.dll
+E:\BookShop\BookShop\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
+E:\BookShop\BookShop\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\BookShop\BookShop\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\BookShop\BookShop\obj\Debug\BookShop.csproj.AssemblyReference.cache
+E:\BookShop\BookShop\obj\Debug\BookShop.csproj.CoreCompileInputs.cache
+E:\BookShop\BookShop\obj\Debug\BookShop.csproj.CopyComplete
+E:\BookShop\BookShop\obj\Debug\BookShop.dll
+E:\BookShop\BookShop\obj\Debug\BookShop.pdb
