@@ -1,0 +1,5 @@
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BLL\bin\Debug\BLL.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BLL\bin\Debug\BLL.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BLL\obj\Debug\BLL.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\BLL\obj\Debug\BLL.pdb

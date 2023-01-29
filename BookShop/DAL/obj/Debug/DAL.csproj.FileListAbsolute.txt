@@ -1,0 +1,37 @@
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\bin\Debug\DAL.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\bin\Debug\DAL.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\obj\Debug\DAL.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\obj\Debug\DAL.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\bin\Debug\DAL.dll.config
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\bin\Debug\EntityFramework.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\bin\Debug\EntityFramework.xml
+C:\Users\admin\documents\visual studio 2015\Projects\BookShop\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\Visual Studio 2015\Projects\BookShop\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\BookShop\DAL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\DAL.dll.config
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\DAL.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\DAL.pdb
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\EntityFramework.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\EntityFramework.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\obj\Debug\DAL.dll
+E:\我的项目\【接单】\20230125--面试aspnet+mvc+mysql网上书店--\BookShop\BookShop\DAL\obj\Debug\DAL.pdb
+E:\BookShop\DAL\bin\Debug\DAL.dll.config
+E:\BookShop\DAL\bin\Debug\DAL.dll
+E:\BookShop\DAL\bin\Debug\DAL.pdb
+E:\BookShop\DAL\bin\Debug\EntityFramework.dll
+E:\BookShop\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\BookShop\DAL\bin\Debug\EntityFramework.xml
+E:\BookShop\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\BookShop\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\BookShop\DAL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\BookShop\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\BookShop\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\BookShop\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\BookShop\DAL\obj\Debug\DAL.dll
+E:\BookShop\DAL\obj\Debug\DAL.pdb
