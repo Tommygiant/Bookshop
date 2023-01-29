@@ -1,0 +1,176 @@
+﻿@model IEnumerable<DAL.books>
+@{
+    ViewBag.Title = "BookShow";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <style>
+.woocommerce-loop-product__title
+{
+    padding: .5em 0;
+    margin: 0;
+    font-size: 0.5em;
+}
+
+
+
+
+
+.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+    width:45%;
+    float: left;
+    height:auto;
+    margin: 0 0 2.992em;
+}
+
+
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    margin-bottom: 20px !important;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    position: relative;
+    
+    margin: 0 0 20px;
+    padding: 0 10px;
+    list-style: none;
+}
+    </style>
+   
+   
+   
+
+</head>
+
+<body class="archive post-type-archive post-type-archive-product woocommerce woocommerce-page woocommerce-no-js header-large ltr wpb-js-composer js-comp-ver-5.4.5 vc_responsive columns-3">
+
+    <div class="site-wrap">
+         
+
+        <div class="books-search">
+            <div class="container">
+                <form class="" method="get" action="~/Home/BookSeach">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <input name="s" value="" type="text" class="form-control" id="keyword" placeholder="Book Title">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <select name='product_cat' id='product_cat' class='form-control'>
+                                    <option value='0'>Book Category</option>
+                                    <option class="level-0" value="计算机">IT</option>
+
+                                    <option class="level-0" value="小说">Story</option>
+
+                                    <option class="level-0" value="教育">Education</option>
+                                    <option class="level-0" value="励志">Inspiration</option>
+                                    <option class="level-0" value="历史">History</option>
+                                </select>
+                                <i class='select-arrow fa fa-angle-down'></i>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <select name='book_author' id='book_author' class='form-control'>
+                                    <option value='0'>Book Author</option>
+                                    <option class="level-0" value="">NOT FOUND</option>
+                                </select>
+                                <i class='select-arrow fa fa-angle-down'></i>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group">
+                                <input type="hidden" name="post_type" value="product" />
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    <i class="fa fa-search"></i> &nbsp;
+                                    Find Book
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="main-content-container container">
+
+            <div class="row">
+                <div class="col-md-9">
+
+                    <div id="content" class="main-content-inner" role="main">
+
+                        <div class="woocommerce-notices-wrapper"></div>
+                        <ul class="products columns-3">
+
+                            @foreach (var item in Model)
+                            {
+
+                            <li class="post-93 product type-product status-publish has-post-thumbnail  product_cat-culture product_cat-life-style product_tag-culture product_tag-dream product_tag-etnic last instock downloadable shipping-taxable purchasable product-type-simple">
+                                <div class="product-inner">
+                                    <a href="/Home/BookDetail/@item.book_id" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                        <figure class="product-image-box"><img width="250" height="333" src="~/Content/Images/book/@item.picname" class="attachment-woocommerce_thumbnail center-block size-woocommerce_thumbnail" alt="" />
+                                        </figure>
+                                    <div class="product-price-box clearfix">
+                                       <h2 class="woocommerce-loop-product__title">@Html.DisplayFor(modelItem => item.title)</h2>
+                                        <span class="person-name vcard">@Html.DisplayFor(modelItem => item.author)</span>
+                                            <span class="price">
+                                                <span class="woocommerce-Price-amount amount">
+                                                <span class="woocommerce-Price-currencySymbol" style="font-size:1em">&#36;
+                                                    </span>@Html.DisplayFor(modelItem => item.price)</span>
+                                            </span>
+                                        </div>
+                                    </a><div class="woo-button-wrapper"><div class="woo-button-border"><a href="/Home/BookDetail/@item.book_id" class="button product-button">Detail</a><a href="/Home/AddCart/@item.book_id" data-quantity="1" class="button product_type_simple add_to_cart_button" data-product_id="96" data-product_sku="" aria-label="Add &ldquo;See Me&rdquo; to your cart" rel="nofollow">Buy</a></div></div>
+                                </div>
+                            </li>
+                          
+                            
+                                }
+                        </ul>
+
+                       
+
+
+                    </div>
+
+                </div>
+               
+            </div>
+
+        </div>
+
+      
+
+    </div>
+
+   
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js"></script>
+    
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"></script>
+   
+
+    <script type='text/javascript' src="~/Content/plugins/wp-embed.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/theme/bookie/script.js"></script>
+    <script type='text/javascript' src="~/Content/include/ui/core.min.js"></script>
+    <script type='text/javascript' src="~/Content/include/ui/mouse.min.js"></script>
+    <script type='text/javascript' src="~/Content/include/ui/slider.min.js"></script>
+    <script type='text/javascript' src="~/Content/include/ui/widget.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js"></script>
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/accounting/accounting.min.js"></script>
+    
+    <script type='text/javascript' src="~/Content/plugins/woocommerce/assets/js/frontend/price-slider.min.js"></script>
+</body>
+</html>

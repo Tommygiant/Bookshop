@@ -1,0 +1,119 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BookShop</title>
+
+    
+   <!-- <link href='https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css' rel="stylesheet">-->
+    <link href="~/assets/css/lib/sweetalert/sweetalert.css" rel="stylesheet">
+    <link href="~/assets/css/lib/font-awesome.min.css" rel="stylesheet">
+   
+    <link href="~/assets/css/lib/themify-icons.css" rel="stylesheet">
+    <link href="~/assets/css/lib/unix.css" rel="stylesheet">
+    <link href="~/assets/css/style.css" rel="stylesheet">
+    <link href="~/Content/Login.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <!--<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>-->
+    <!--<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="~/assets/js/lib/sweetalert/sweetalert.min.js"></script>
+    <script src="~/assets/js/lib/sweetalert/sweetalert.init.js"></script>
+    <script src="~/assets/js/scripts.js"></script>
+    <script src="~/layer/layer.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#submit").click(function () {
+                if (!$("#username").val()) {
+                    sweetAlert("Please enter username！", "", "error");
+                    return;
+                }
+
+                if (!$('#password').val()) {
+                    sweetAlert("Please enter passcode！", "", "error");
+                    return;
+                }
+
+                $.ajax({
+                    type: "post",
+                    url: "CheckLogin",
+                    data: $("#form-login").serialize(),
+                    dataType: "json",
+                    success: function (msg) {
+                        if (msg.status == 1) {
+                            swal({
+                                title: msg.data,
+                                text: "Welcome to BookShop",
+                                timer: 2500,
+                                type: "success",
+                                showConfirmButton: false,
+                                content:'Home'
+                            });
+                            window.setTimeout("window.location.href = 'Index'", 2000);
+                        } else {
+                            sweetAlert(msg.data, "wrong passcode", "error");
+                            
+                        }
+                    }
+                });
+
+            });
+        });
+
+        function Register_onclick() {
+            layer.open({
+                type: 2,
+                title: 'Register',
+                shadeClose: true,
+                shade: false,
+                maxmin: true, //max button outlook
+                area: ['893px', '600px'],
+                content: 'Register'
+            });
+        }
+
+      
+    </script>
+</head>
+ <body class="page-template page-template-page_fullwidth page-template-page_fullwidth-php page page-id-1709 woocommerce-account woocommerce-page woocommerce-no-js header-large ltr wpb-js-composer js-comp-ver-5.4.5 vc_responsive">
+
+   
+
+         <form id="form-login">
+             <div class="unix-login">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-lg-6 col-lg-offset-3">
+                             <div class="login-content">
+                                 <div class="login-form">
+                                     <h2>UserLogin</h2>
+                                     <div class="form-group">
+                                         <i class="fa fa-user fa-lg"></i>
+                                         <input type="text" class="form-control" placeholder="用户名" id="username" name="username">
+                                     </div>
+                                     <div class="form-group">
+                                         <i class="fa fa-lock fa-lg"></i>
+                                         <input type="password" class="form-control" placeholder="密码" id="password" name="password">
+                                     </div>
+                                     
+                                     <button type="button" class="btn btn-primary bg-twitter btn-flat btn-addon m-t-10" id="submit" name="submit" onkeydown="">Log In</button>
+                                     <div class="register-link m-t-15 text-center">
+                                         <p>Do not have account yet ？ <a onclick="javascript:Register_onclick()"> Register </a></p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </form>
+</body>
+</html>
