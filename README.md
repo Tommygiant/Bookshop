@@ -55,7 +55,7 @@ A simple web application, SQL SERVER database, using the MVC framework to achiev
 - support by HomePage, Bookstore display
 
 ## Book Reservation
-- support by Customer
+- support by Customer apply
 - support by Order Produce, *BUY* rather than add to cart
 - shopping cart records do not trigger book reservation
 - book is not allowed to be reserved if it already be ordered
@@ -111,7 +111,7 @@ A simple web application, SQL SERVER database, using the MVC framework to achiev
 - Modify constructuion to unified front page display and database information
 - Modify first time online task not to roll back
 
-### v0.2 (2023/01/25 13:00 +00:00)
+### v0.2 (2023/01/27 09:00 +00:00)
 - Deployment page optimisation
 - Modify access for visitor and customer
 - Modify cart payment and manner to produce order
@@ -120,7 +120,7 @@ A simple web application, SQL SERVER database, using the MVC framework to achiev
 - Modify page Navogation, update option of book search
 
 
-### v0.3 (2023/01/25 13:00 +00:00)
+### v0.3 (2023/01/28 11:00 +00:00)
 - Modify repo address
 - Ensure error free for compatible problem between local file and remote branch
 - Modify gitIgnore and README
